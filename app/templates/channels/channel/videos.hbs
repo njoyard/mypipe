@@ -1,0 +1,8 @@
+<ul class="list-group">
+  {{#each model.videos as |video|}}
+    <li class="list-group-item">
+      {{video.title}}
+      <span class="pull-right">{{video.seen}}</span>
+    </li>
+  {{/each}}
+</ul>

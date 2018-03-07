@@ -7,6 +7,11 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('channels', function() {
+    this.route('channel', { path: ':slug' }, function() {
+      this.route('videos');
+    });
+  });
 });
 
 export default Router;

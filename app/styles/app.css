@@ -1,0 +1,44 @@
+.page-header h1 {
+  color: #555;
+}
+
+.videos .seen {
+  color: #aaa;
+}
+
+.empty-list {
+  min-height: 100px;
+  text-align: center;
+}
+
+.empty-list .empty-message {
+  display: inline-block;
+  color: #555;
+  line-height: 100px;
+}
+
+.channel-link .pointer {
+  float: right;
+  display: none;
+}
+
+.channel-link.active .pointer {
+  display: block;
+}
+
+.new-channel {
+  width: 82%;
+}
+
+.new-channel-button {
+  float: right;
+  padding: 3px 10px;
+}
+
+.new-video {
+  width: 50%;
+}
+
+.new-video-button {
+  margin-left: 20px;
+}

@@ -1,0 +1,13 @@
+<div class="col-md-4">
+  <div class="list-group">
+    {{#each model as |channel|}}
+      {{#link-to "channels.channel.videos" channel class="list-group-item channel-link" }}
+        {{channel.name}}
+        <span class="pointer glyphicon glyphicon-chevron-right"></span>
+      {{/link-to}}
+    {{/each}}
+  </div>
+</div>
+<div class="col-md-8">
+  {{outlet}}
+</div>
